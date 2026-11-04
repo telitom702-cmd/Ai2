@@ -50,8 +50,8 @@ from os import environ
 # ───────────────────────── বট / ডাটাবেস (সব environment থেকে) ─────────────────────────
 # ⚠️ ডিফল্ট ("") এর জায়গায় আসল পাসওয়ার্ড/key লিখে GitHub-এ দেবেন না। Render/Docker-এর environment-এ দিন।
 SESSION = environ.get("SESSION", "DreamZBotz")
-API_ID = int(environ.get("API_ID", "0"))
-API_HASH = environ.get("API_HASH", "")
+API_ID = int(environ.get("API_ID", "24776633"))
+API_HASH = environ.get("API_HASH", "57b1f632044b4e718f5dce004a988d69")
 BOT_TOKEN = environ.get("BOT_TOKEN", "")
 ADMINS = [int(x) for x in environ.get("ADMINS", "8248792819").replace(",", " ").split() if x.isdigit()]
 DATABASE_URI = environ.get("DATABASE_URI", "")
